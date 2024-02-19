@@ -1,0 +1,12 @@
+{
+  "name": "brick-vault",
+  "version": "1.0.0",
+  "description": "Brick Vault est un side project me permettant d'inventorier et de calculer la valeur de ma collection de set Lego",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
