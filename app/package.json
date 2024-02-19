@@ -2,11 +2,15 @@
   "name": "brick-vault",
   "version": "1.0.0",
   "description": "Brick Vault est un side project me permettant d'inventorier et de calculer la valeur de ma collection de set Lego",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "fastify start server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.1"
+  }
 }
