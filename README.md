@@ -16,5 +16,9 @@ Database
 Tools : 
 - https://www.testing-playground.com/
 - https://testing-library.com/docs/dom-testing-library/intro/
+
 ## TODO
 [] implement fastify node server (https://fastify.dev/docs/latest/Guides/Getting-Started/#install)
+[] implement signUp and signIn user journey
+    [] add back-end enpoints
+    [] code UI
