@@ -26,15 +26,16 @@ To learn more about Next.js, take a look at the following resources:
 ├── public/  --> Static assets to be served
 ├── src/ --> Optional application source folder
 │   ├── app/ --> ???
+│   ├── api/ --> 
 ├── app/ --> App Router
 ├── pages/ --> Pages Router
 ├── .eslintrc.js --> Eslint rules configuration file
-├── .gitignore
-├── next-env.d.ts --> Type for next project using TS
-├── next.config.mjs
+├── .gitignore --> Git files and folders to ignore
+├── next-env.d.ts --> TypeScript declaration file for Next.js
+├── next.config.mjs --> Configuration file for Next.js
 ├── package-lock.json
-├── package.json
+├── package.json --> Project dependencies and scripts
 ├── README.md
-└── tsconfig.json
+└── tsconfig.json --> Configuration file for TypeScript
 ```
 
