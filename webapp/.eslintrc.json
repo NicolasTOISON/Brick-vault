@@ -2,5 +2,13 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:react-hooks/recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["tests/**/*"],
+      "env": {
+        "jest": true
+      }
+    }
   ]
 }
