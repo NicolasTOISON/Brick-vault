@@ -1,9 +1,9 @@
-# brick-vault
+# Brick Vault
 Brick Vault est un side project me permettant d'inventorier et de calculer la valeur de ma collection de set Lego
 
 # Stack 
 Front-end APP
-- React
+- React (Using NextJS Framework)
 - React Testing Library
 
 Back-en APP
