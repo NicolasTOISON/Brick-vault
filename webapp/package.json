@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@opentelemetry/api": "^1.7.0",
+    "@opentelemetry/api": "^1.9.0",
     "@vercel/otel": "^1.8.1",
     "next": "14.1.4",
     "react": "^18",
