@@ -1,15 +1,15 @@
-// ESM
 import Fastify from 'fastify'
-import firstRoute from './routes/first-route'
-/**
- * @type {import('fastify').FastifyInstance} Instance of Fastify
- */
+
 const fastify = Fastify({
-  logger: true
+  logger: true,
 })
 
-fastify.register(firstRoute)
+// Declare a route
+fastify.get('/', function (request, reply) {
+  reply.send({ hello: 'world' })
+})
 
+// Run the server!
 fastify.listen({ port: 3000 }, function (err, address) {
   if (err) {
     fastify.log.error(err)
