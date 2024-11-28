@@ -1,0 +1,18 @@
+---
+import { getLegoSets } from '../utils/database'
+import LegoSetCard from './LegoSetCard.astro'
+
+const result = await getLegoSets()
+const legoSets = result.rows
+---
+
+<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+  {legoSets.map((set) => <LegoSetCard {...set} />)}
+  {
+    legoSets.length === 0 && (
+      <p class="col-span-full text-center text-gray-500 py-8">
+        No LEGO sets in your collection yet. Start by scanning a set!
+      </p>
+    )
+  }
+</div>
